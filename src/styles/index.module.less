@@ -1,0 +1,10 @@
+@xs-min: 480px;
+@phone: ~"only screen and (max-width: @{xs-min})";
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    @media @phone {
+        width: 95%;
+    }
+}
